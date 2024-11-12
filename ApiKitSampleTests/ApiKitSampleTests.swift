@@ -1,10 +1,3 @@
-//
-//  ApiKitSampleTests.swift
-//  ApiKitSampleTests
-//
-//  Created by 佐藤来 on 2024/10/27.
-//
-
 import Testing
 @testable import ApiKitSample
 

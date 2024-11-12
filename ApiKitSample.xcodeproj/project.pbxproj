@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		48E993C92CDF27AE00C554B9 /* APIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 48E993C82CDF27AE00C554B9 /* APIKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		48E993A32CCE408100C554B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E993C92CDF27AE00C554B9 /* APIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = ApiKitSample;
 			packageProductDependencies = (
+				48E993C82CDF27AE00C554B9 /* APIKit */,
 			);
 			productName = ApiKitSample;
 			productReference = 48E993922CCE408000C554B9 /* ApiKitSample.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 48E993892CCE408000C554B9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				48E993C72CDF27AE00C554B9 /* XCRemoteSwiftPackageReference "APIKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 48E993932CCE408000C554B9 /* Products */;
 			projectDirPath = "";
@@ -552,6 +561,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48E993C72CDF27AE00C554B9 /* XCRemoteSwiftPackageReference "APIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ishkawa/APIKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48E993C82CDF27AE00C554B9 /* APIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48E993C72CDF27AE00C554B9 /* XCRemoteSwiftPackageReference "APIKit" */;
+			productName = APIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48E9938A2CCE408000C554B9 /* Project object */;
 }
